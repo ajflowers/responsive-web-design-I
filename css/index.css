@@ -116,10 +116,6 @@ header nav a {
 	padding-top: 60px;
 }
 
-.intro-right {
-	
-}
-
 .header-img {
 	display: block;
 	margin: auto;
@@ -228,13 +224,12 @@ address {
 
 	hr {
 		width: 90%;
-		s
+		height: 2px;
+		background-color: black;
 	}
 
 	.intro-right {
-		display: none;
-		height: 1px;
-		color: black;
+		display: none;			
 	}
 	.featuresAbout {
 		width: 90%;
@@ -263,4 +258,63 @@ address {
 	.block3 {
 		width: 30%;
 	}
+}
+
+@media screen and (max-width: 500px) {
+	header{
+		margin:0px auto;
+		padding: 15px 0px;
+	}
+
+	nav {
+		flex-direction: column;
+		border-top: 1px solid black;
+		width: 100%;
+	}
+
+	.navlink {
+		border-bottom: 1px solid black;
+		padding: 15px 0px;
+	}
+
+	nav header a {
+		font-size: 20px;
+	}
+
+	.featuresAbout {
+		flex-direction: column;
+
+	}
+
+	.block2 {
+		width: 100%;
+
+		padding: 15px 0px;
+	}
+
+	.servicesEtc {
+		flex-direction: column;
+	}
+
+	.block3 {
+		width: 100%;
+		padding: 15px 0px;
+	}
+
+	footer {
+		width: 90%;
+		margin: 0px auto;
+	}
+
+	address {
+		margin: 0px auto;
+		padding: 0px;
+	}
+
+
+
+
+
+
+
 }
